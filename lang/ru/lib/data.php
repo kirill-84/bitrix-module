@@ -1,0 +1,7 @@
+<?
+$MESS["DATA_ENTITY_ID_FIELD"] = "ID";
+$MESS["DATA_ENTITY_TITLE_FIELD"] = "Регионы";
+$MESS["DATA_ENTITY_CODE_FIELD"] = "Код";
+$MESS["DATA_ENTITY_SORT_FIELD"] = "Сортировка";
+$MESS["DATA_ENTITY_CREATED_FIELD"] = "Дата создания";
+?>
