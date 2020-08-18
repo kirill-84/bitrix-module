@@ -1,5 +1,5 @@
-# hello-world
-Just another repository
+# bitrix-module
 
-I like learning and learning something new.
-Good luck me.
+Пример расширения модуля на 1С:Битрикс (D7).
+
+Основа модуля была взята от #syrex88# (bitrix-d7-module) и дополнена. 
