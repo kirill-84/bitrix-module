@@ -9,19 +9,10 @@ use Bitrix\Main\Grid\Options as GridOptions;
 
 IncludeModuleLangFile(__FILE__);
 
-
 $POST_RIGHT = $APPLICATION->GetGroupRight("xyz.geolocation");
 
 if ($POST_RIGHT == "D")
   $APPLICATION->AuthForm(GetMessage("ACCESS_DENIED"));
-
-/**
- * print_r
- */
-function p($arr){
-  echo "<pre>";print_r($arr);echo "</pre>";
-}
-
 
 $ID = intval($_REQUEST["ID"]);
 $message = null;
