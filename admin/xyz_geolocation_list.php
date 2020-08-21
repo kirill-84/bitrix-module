@@ -45,13 +45,6 @@ $grid_options = new GridOptions($list_id);
 $reg_id = intval($_REQUEST["id"]);
 
 /**
- * print_r
- */
-function p($arr){
-  echo "<pre>";print_r($arr);echo "</pre>";
-}
-
-/**
  * Навигация
  */
 $nav_params = $grid_options->GetNavParams();
