@@ -38,7 +38,7 @@ if(
 		$city_key = $_POST["city_key"];
 	}
 
-	if(count($users) > 0){
+	if(isset($users)){
 		foreach ($users as $val) {
 			$res = $user->Update($val, array("UF_CITY"=>$city_key));
 		}
