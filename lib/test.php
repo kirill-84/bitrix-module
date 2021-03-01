@@ -12,7 +12,7 @@ class Test{
                             'select' => array('*')
         ));
         $row = $result->fetch();
-        print "<pre>"; print_r($row); print "</pre>";
+        //print "<pre>"; print_r($row); print "</pre>";
         return $row;
     }
 
