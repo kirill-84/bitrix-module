@@ -23,9 +23,9 @@ $recordset = $connection->query($sql);
 
 while ($record = $recordset->fetch()) {
 	$aMenu["items"][] =  array(
-        "text" => $record["NAME"],
-        "url"  => "xyz_geolocation_list.php?lang=".LANGUAGE_ID."&grid_id=CITY&grid_action=sort&by=NAME&id=".$record["ID"],
-        "icon" => "fileman_menu_icon_sections",
+        	"text" => $record["NAME"],
+        	"url"  => "xyz_geolocation_list.php?lang=".LANGUAGE_ID."&grid_id=CITY&grid_action=sort&by=NAME&id=".$record["ID"],
+        	"icon" => "fileman_menu_icon_sections",
 		"title" => ""
 	);
 }
